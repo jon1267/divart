@@ -21,6 +21,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/import', 'TonicDataController@import');
 
-//Route::get('/request-one', 'ApiDataController@requestOne');
-//Route::get('/request-three', 'ApiDataController@requestThree');
-//Route::get('/api-auth', 'AmoDataController@apiAuth');
+Route::get('/request-one', 'ApiDataController@requestOne');
+Route::get('/request-three', 'ApiDataController@requestThree');
+Route::get('/api-auth', 'ApiDataController@apiAuth');
